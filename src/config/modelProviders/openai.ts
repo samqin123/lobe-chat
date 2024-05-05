@@ -12,6 +12,16 @@ const OpenAI: ModelProviderCard = {
       tokens: 16_385,
     },
     {
+      description: 'kimi全能，适用于各种文本生成和理解任务',
+      displayName: 'Kimi-All',
+      enabled: true,
+      functionCall: true,
+      id: 'kimi',
+      tokens: 128_000,
+      vision: true,
+      file: true
+    },
+    {
       displayName: 'GPT-3.5 Turbo (0125)',
       functionCall: true,
       id: 'gpt-3.5-turbo-0125',
